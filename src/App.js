@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import { TaskProvider } from './TaskContext';
-import TaskList from './TaskList';
-import TaskInput from './TaskInput';
+import { TaskProvider } from './context/TaskContext';
+import TaskList from './components/TaskList';
+import TaskInput from './components/TaskInput';
 
 function App() {
   return (
